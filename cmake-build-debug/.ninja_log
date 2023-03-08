@@ -1,0 +1,12 @@
+# ninja log v5
+1	111	1678310978039368354	ChickenSandBox	7c057e4456ebdd22
+110	343	1678310257626369892	CMakeFiles/ChickenSandBox.dir/SRC/cesar_cifra.c.o	b21f3c0b745cb415
+0	542	1678310781067112879	CMakeFiles/ChickenSandBox_main.dir/Fork_teste.c.o	434d54a6bd0e8dac
+130	296	1678310257565258051	CMakeFiles/ChickenSandBox.dir/SRC/decript.c.o	4d9173e05bf0d078
+1	134	1678310894167583203	CMakeFiles/ChickenSandBox.dir/Fork_teste.c.o	2178d8a6ddebcd48
+4	109	1678310257427356251	CMakeFiles/ChickenSandBox.dir/SRC/algo.c.o	af997cfca26fe0df
+1	129	1678310257446439639	CMakeFiles/ChickenSandBox.dir/main.c.o	f37dd7294862ed93
+0	122	1678311913975826331	build.ninja	3a711c9fdc1e2cec
+543	724	1678310781259020905	ChickenSandBox_main	fccc16287298836
+0	117	1678310956723239054	CMakeFiles/ChickenSandBox_Fork_teste.dir/Fork_teste.c.o	e306e90bce349bbc
+118	310	1678310956910823157	ChickenSandBox_Fork_teste	b3f3ccfded7b0fe4
