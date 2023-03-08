@@ -2,10 +2,10 @@
 // Created by Vitor Frango on 01/12/2022.
 //
 #include <stdio.h>
-#include <conio.h>
+
 #include <stdlib.h>
 #include <locale.h>
-#include <windows.h>
+
 #include <time.h>
 
 #define AGUA '~'

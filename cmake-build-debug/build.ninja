@@ -52,11 +52,23 @@ build CMakeFiles/ChickenSandBox.dir/main.c.o: C_COMPILER__ChickenSandBox_Debug /
   OBJECT_DIR = CMakeFiles/ChickenSandBox.dir
   OBJECT_FILE_DIR = CMakeFiles/ChickenSandBox.dir
 
-build CMakeFiles/ChickenSandBox.dir/testes/ola.c.o: C_COMPILER__ChickenSandBox_Debug /Users/vitorfrango/Library/CloudStorage/OneDrive-Personal/programacao/c/ChickenSandBox/testes/ola.c || cmake_object_order_depends_target_ChickenSandBox
-  DEP_FILE = CMakeFiles/ChickenSandBox.dir/testes/ola.c.o.d
+build CMakeFiles/ChickenSandBox.dir/ola.c.o: C_COMPILER__ChickenSandBox_Debug /Users/vitorfrango/Library/CloudStorage/OneDrive-Personal/programacao/c/ChickenSandBox/ola.c || cmake_object_order_depends_target_ChickenSandBox
+  DEP_FILE = CMakeFiles/ChickenSandBox.dir/ola.c.o.d
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -fcolor-diagnostics -std=gnu11
   OBJECT_DIR = CMakeFiles/ChickenSandBox.dir
-  OBJECT_FILE_DIR = CMakeFiles/ChickenSandBox.dir/testes
+  OBJECT_FILE_DIR = CMakeFiles/ChickenSandBox.dir
+
+build CMakeFiles/ChickenSandBox.dir/hello.c.o: C_COMPILER__ChickenSandBox_Debug /Users/vitorfrango/Library/CloudStorage/OneDrive-Personal/programacao/c/ChickenSandBox/hello.c || cmake_object_order_depends_target_ChickenSandBox
+  DEP_FILE = CMakeFiles/ChickenSandBox.dir/hello.c.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/ChickenSandBox.dir
+  OBJECT_FILE_DIR = CMakeFiles/ChickenSandBox.dir
+
+build CMakeFiles/ChickenSandBox.dir/SistemasOp/ola.c.o: C_COMPILER__ChickenSandBox_Debug /Users/vitorfrango/Library/CloudStorage/OneDrive-Personal/programacao/c/ChickenSandBox/SistemasOp/ola.c || cmake_object_order_depends_target_ChickenSandBox
+  DEP_FILE = CMakeFiles/ChickenSandBox.dir/SistemasOp/ola.c.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/ChickenSandBox.dir
+  OBJECT_FILE_DIR = CMakeFiles/ChickenSandBox.dir/SistemasOp
 
 
 # =============================================================================
@@ -66,7 +78,7 @@ build CMakeFiles/ChickenSandBox.dir/testes/ola.c.o: C_COMPILER__ChickenSandBox_D
 #############################################
 # Link the executable ChickenSandBox
 
-build ChickenSandBox: C_EXECUTABLE_LINKER__ChickenSandBox_Debug CMakeFiles/ChickenSandBox.dir/main.c.o CMakeFiles/ChickenSandBox.dir/testes/ola.c.o
+build ChickenSandBox: C_EXECUTABLE_LINKER__ChickenSandBox_Debug CMakeFiles/ChickenSandBox.dir/main.c.o CMakeFiles/ChickenSandBox.dir/ola.c.o CMakeFiles/ChickenSandBox.dir/hello.c.o CMakeFiles/ChickenSandBox.dir/SistemasOp/ola.c.o
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk
   OBJECT_DIR = CMakeFiles/ChickenSandBox.dir
   POST_BUILD = :
@@ -105,6 +117,161 @@ build ChickenSandBox_Fork_teste: C_EXECUTABLE_LINKER__ChickenSandBox_Fork_teste_
   TARGET_FILE = ChickenSandBox_Fork_teste
   TARGET_PDB = ChickenSandBox_Fork_teste.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target ChickenSandBox_ola
+
+
+#############################################
+# Order-only phony target for ChickenSandBox_ola
+
+build cmake_object_order_depends_target_ChickenSandBox_ola: phony || CMakeFiles/ChickenSandBox_ola.dir
+
+build CMakeFiles/ChickenSandBox_ola.dir/ola.c.o: C_COMPILER__ChickenSandBox_ola_Debug /Users/vitorfrango/Library/CloudStorage/OneDrive-Personal/programacao/c/ChickenSandBox/ola.c || cmake_object_order_depends_target_ChickenSandBox_ola
+  DEP_FILE = CMakeFiles/ChickenSandBox_ola.dir/ola.c.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/ChickenSandBox_ola.dir
+  OBJECT_FILE_DIR = CMakeFiles/ChickenSandBox_ola.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ChickenSandBox_ola
+
+
+#############################################
+# Link the executable ChickenSandBox_ola
+
+build ChickenSandBox_ola: C_EXECUTABLE_LINKER__ChickenSandBox_ola_Debug CMakeFiles/ChickenSandBox_ola.dir/ola.c.o
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk
+  OBJECT_DIR = CMakeFiles/ChickenSandBox_ola.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = ChickenSandBox_ola
+  TARGET_PDB = ChickenSandBox_ola.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target ChickenSandBox_hello
+
+
+#############################################
+# Order-only phony target for ChickenSandBox_hello
+
+build cmake_object_order_depends_target_ChickenSandBox_hello: phony || CMakeFiles/ChickenSandBox_hello.dir
+
+build CMakeFiles/ChickenSandBox_hello.dir/hello.c.o: C_COMPILER__ChickenSandBox_hello_Debug /Users/vitorfrango/Library/CloudStorage/OneDrive-Personal/programacao/c/ChickenSandBox/hello.c || cmake_object_order_depends_target_ChickenSandBox_hello
+  DEP_FILE = CMakeFiles/ChickenSandBox_hello.dir/hello.c.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/ChickenSandBox_hello.dir
+  OBJECT_FILE_DIR = CMakeFiles/ChickenSandBox_hello.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ChickenSandBox_hello
+
+
+#############################################
+# Link the executable ChickenSandBox_hello
+
+build ChickenSandBox_hello: C_EXECUTABLE_LINKER__ChickenSandBox_hello_Debug CMakeFiles/ChickenSandBox_hello.dir/hello.c.o
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk
+  OBJECT_DIR = CMakeFiles/ChickenSandBox_hello.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = ChickenSandBox_hello
+  TARGET_PDB = ChickenSandBox_hello.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target ChickenSandBox_testesBatalahNaval
+
+
+#############################################
+# Order-only phony target for ChickenSandBox_testesBatalahNaval
+
+build cmake_object_order_depends_target_ChickenSandBox_testesBatalahNaval: phony || CMakeFiles/ChickenSandBox_testesBatalahNaval.dir
+
+build CMakeFiles/ChickenSandBox_testesBatalahNaval.dir/testes/BatalahNaval.c.o: C_COMPILER__ChickenSandBox_testesBatalahNaval_Debug /Users/vitorfrango/Library/CloudStorage/OneDrive-Personal/programacao/c/ChickenSandBox/testes/BatalahNaval.c || cmake_object_order_depends_target_ChickenSandBox_testesBatalahNaval
+  DEP_FILE = CMakeFiles/ChickenSandBox_testesBatalahNaval.dir/testes/BatalahNaval.c.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/ChickenSandBox_testesBatalahNaval.dir
+  OBJECT_FILE_DIR = CMakeFiles/ChickenSandBox_testesBatalahNaval.dir/testes
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ChickenSandBox_testesBatalahNaval
+
+
+#############################################
+# Link the executable ChickenSandBox_testesBatalahNaval
+
+build ChickenSandBox_testesBatalahNaval: C_EXECUTABLE_LINKER__ChickenSandBox_testesBatalahNaval_Debug CMakeFiles/ChickenSandBox_testesBatalahNaval.dir/testes/BatalahNaval.c.o
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk
+  OBJECT_DIR = CMakeFiles/ChickenSandBox_testesBatalahNaval.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = ChickenSandBox_testesBatalahNaval
+  TARGET_PDB = ChickenSandBox_testesBatalahNaval.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target ChickenSandBox_testesalgo
+
+
+#############################################
+# Order-only phony target for ChickenSandBox_testesalgo
+
+build cmake_object_order_depends_target_ChickenSandBox_testesalgo: phony || CMakeFiles/ChickenSandBox_testesalgo.dir
+
+build CMakeFiles/ChickenSandBox_testesalgo.dir/testes/algo.c.o: C_COMPILER__ChickenSandBox_testesalgo_Debug /Users/vitorfrango/Library/CloudStorage/OneDrive-Personal/programacao/c/ChickenSandBox/testes/algo.c || cmake_object_order_depends_target_ChickenSandBox_testesalgo
+  DEP_FILE = CMakeFiles/ChickenSandBox_testesalgo.dir/testes/algo.c.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/ChickenSandBox_testesalgo.dir
+  OBJECT_FILE_DIR = CMakeFiles/ChickenSandBox_testesalgo.dir/testes
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ChickenSandBox_testesalgo
+
+
+#############################################
+# Link the executable ChickenSandBox_testesalgo
+
+build ChickenSandBox_testesalgo: C_EXECUTABLE_LINKER__ChickenSandBox_testesalgo_Debug CMakeFiles/ChickenSandBox_testesalgo.dir/testes/algo.c.o
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk
+  OBJECT_DIR = CMakeFiles/ChickenSandBox_testesalgo.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = ChickenSandBox_testesalgo
+  TARGET_PDB = ChickenSandBox_testesalgo.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target ChickenSandBox_SistemasOpola
+
+
+#############################################
+# Order-only phony target for ChickenSandBox_SistemasOpola
+
+build cmake_object_order_depends_target_ChickenSandBox_SistemasOpola: phony || CMakeFiles/ChickenSandBox_SistemasOpola.dir
+
+build CMakeFiles/ChickenSandBox_SistemasOpola.dir/SistemasOp/ola.c.o: C_COMPILER__ChickenSandBox_SistemasOpola_Debug /Users/vitorfrango/Library/CloudStorage/OneDrive-Personal/programacao/c/ChickenSandBox/SistemasOp/ola.c || cmake_object_order_depends_target_ChickenSandBox_SistemasOpola
+  DEP_FILE = CMakeFiles/ChickenSandBox_SistemasOpola.dir/SistemasOp/ola.c.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/ChickenSandBox_SistemasOpola.dir
+  OBJECT_FILE_DIR = CMakeFiles/ChickenSandBox_SistemasOpola.dir/SistemasOp
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ChickenSandBox_SistemasOpola
+
+
+#############################################
+# Link the executable ChickenSandBox_SistemasOpola
+
+build ChickenSandBox_SistemasOpola: C_EXECUTABLE_LINKER__ChickenSandBox_SistemasOpola_Debug CMakeFiles/ChickenSandBox_SistemasOpola.dir/SistemasOp/ola.c.o
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk
+  OBJECT_DIR = CMakeFiles/ChickenSandBox_SistemasOpola.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = ChickenSandBox_SistemasOpola
+  TARGET_PDB = ChickenSandBox_SistemasOpola.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -139,7 +306,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/vitorfrango/Library/CloudStorage/OneDrive-Personal/programacao/c/ChickenSandBox/cmake-build-debug
 
-build all: phony ChickenSandBox ChickenSandBox_Fork_teste
+build all: phony ChickenSandBox ChickenSandBox_Fork_teste ChickenSandBox_ola ChickenSandBox_hello ChickenSandBox_testesBatalahNaval ChickenSandBox_testesalgo ChickenSandBox_SistemasOpola
 
 # =============================================================================
 # Built-in targets

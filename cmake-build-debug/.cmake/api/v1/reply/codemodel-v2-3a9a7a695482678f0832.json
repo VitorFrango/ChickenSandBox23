@@ -1,0 +1,114 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.24"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "ChickenSandBox",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ChickenSandBox::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ChickenSandBox-Debug-2ded473cdc0925304f1d.json",
+					"name" : "ChickenSandBox",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ChickenSandBox_Fork_teste::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ChickenSandBox_Fork_teste-Debug-0aaf94ca32551caafeea.json",
+					"name" : "ChickenSandBox_Fork_teste",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ChickenSandBox_SistemasOpola::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ChickenSandBox_SistemasOpola-Debug-0662f77638a7a30ca61f.json",
+					"name" : "ChickenSandBox_SistemasOpola",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ChickenSandBox_hello::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ChickenSandBox_hello-Debug-1ef75d09dcff7536f7f0.json",
+					"name" : "ChickenSandBox_hello",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ChickenSandBox_ola::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ChickenSandBox_ola-Debug-d25b4615a5294563fe87.json",
+					"name" : "ChickenSandBox_ola",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ChickenSandBox_testesBatalahNaval::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ChickenSandBox_testesBatalahNaval-Debug-a5a528663647fa97c247.json",
+					"name" : "ChickenSandBox_testesBatalahNaval",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ChickenSandBox_testesalgo::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ChickenSandBox_testesalgo-Debug-56670b3c9e54773ea0ff.json",
+					"name" : "ChickenSandBox_testesalgo",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/vitorfrango/Library/CloudStorage/OneDrive-Personal/programacao/c/ChickenSandBox/cmake-build-debug",
+		"source" : "/Users/vitorfrango/Library/CloudStorage/OneDrive-Personal/programacao/c/ChickenSandBox"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

@@ -1,4 +1,9 @@
 /Users/vitorfrango/Library/CloudStorage/OneDrive-Personal/programacao/c/ChickenSandBox/cmake-build-debug/CMakeFiles/ChickenSandBox.dir
 /Users/vitorfrango/Library/CloudStorage/OneDrive-Personal/programacao/c/ChickenSandBox/cmake-build-debug/CMakeFiles/ChickenSandBox_Fork_teste.dir
+/Users/vitorfrango/Library/CloudStorage/OneDrive-Personal/programacao/c/ChickenSandBox/cmake-build-debug/CMakeFiles/ChickenSandBox_ola.dir
+/Users/vitorfrango/Library/CloudStorage/OneDrive-Personal/programacao/c/ChickenSandBox/cmake-build-debug/CMakeFiles/ChickenSandBox_hello.dir
+/Users/vitorfrango/Library/CloudStorage/OneDrive-Personal/programacao/c/ChickenSandBox/cmake-build-debug/CMakeFiles/ChickenSandBox_testesBatalahNaval.dir
+/Users/vitorfrango/Library/CloudStorage/OneDrive-Personal/programacao/c/ChickenSandBox/cmake-build-debug/CMakeFiles/ChickenSandBox_testesalgo.dir
+/Users/vitorfrango/Library/CloudStorage/OneDrive-Personal/programacao/c/ChickenSandBox/cmake-build-debug/CMakeFiles/ChickenSandBox_SistemasOpola.dir
 /Users/vitorfrango/Library/CloudStorage/OneDrive-Personal/programacao/c/ChickenSandBox/cmake-build-debug/CMakeFiles/edit_cache.dir
 /Users/vitorfrango/Library/CloudStorage/OneDrive-Personal/programacao/c/ChickenSandBox/cmake-build-debug/CMakeFiles/rebuild_cache.dir

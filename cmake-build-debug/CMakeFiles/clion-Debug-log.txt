@@ -1,13 +1,4 @@
 "/Users/vitorfrango/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/bin/cmake" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=/Users/vitorfrango/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/ninja/mac/ninja" -G Ninja -S /Users/vitorfrango/Library/CloudStorage/OneDrive-Personal/programacao/c/ChickenSandBox -B /Users/vitorfrango/Library/CloudStorage/OneDrive-Personal/programacao/c/ChickenSandBox/cmake-build-debug
 -- Configuring done
-CMake Error at CMakeLists.txt:8 (add_executable):
-  Cannot find source file:
-
-    ola.c
-
-
-CMake Error at CMakeLists.txt:8 (add_executable):
-  No SOURCES given to target: ChickenSandBox_main
-
-
-CMake Generate step failed.  Build files cannot be regenerated correctly.
+-- Generating done
+-- Build files have been written to: /Users/vitorfrango/Library/CloudStorage/OneDrive-Personal/programacao/c/ChickenSandBox/cmake-build-debug
